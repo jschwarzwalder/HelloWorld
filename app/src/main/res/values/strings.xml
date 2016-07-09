@@ -2,5 +2,6 @@
     <string name="app_name">My Application</string>
     <string name="my_hello_text">Hello Everyone!</string>
     <string name="second_line">Second Line on the screen</string>
+    <string name="alt_text">Replaced text on initialization</string>
     <string name="myButton">My Button</string>
 </resources>

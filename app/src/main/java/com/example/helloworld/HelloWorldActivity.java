@@ -27,6 +27,14 @@ public class HelloWorldActivity extends AppCompatActivity {
 
         Log.d(TAG,"string value has been changed");
 
+        //on button click it will display message with Toast
+        myButton.setOnclickListener(new View.onClickListener(){
+            public voide onClick(View view){
+                Toast.makeText(getBaseContext(), "this was clicked!", Toast.LENGTH_LONG)
+            }
+        })
+
+
 
     }
 
